@@ -10,7 +10,7 @@ public class Main {
         int N = Integer.parseInt(br.readLine());
         int input;
 
-        //int형 priorityQueue 선언 (내림차순)
+        //int형 priorityQueue 선언 (오름차순)
         PriorityQueue<Integer> q = new PriorityQueue<>();
 
         for (int i = 0; i < N; i++) {
